@@ -1,0 +1,154 @@
+.part1{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	height:70%;
+} 
+.part2{
+	height:30%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	background: linear-gradient(to right, black, #6a3112);
+}
+.text-mobile-section{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 60%;
+}
+.text_mobile{
+	align-self: flex-start;
+	margin-left: 5%;
+	width:60%;
+}
+.list_mobile{
+	align-self: flex-start;
+	margin-top: 3%;
+	width: 65%;
+	display: flex;
+	justify-content: flex-end;
+}
+#m{
+	margin-left: 20px;
+}
+#i{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.imageM{
+	height: 90%;
+	align-self: flex-end;
+}
+.head_mobile{
+	font-size: 20px;
+}
+.txt_mobile{
+	font-size:1em;
+}
+.cards2{
+	width: 12%;
+	height: 10%;
+	align-self: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	color:#4f4f4f;
+	text-align: center;
+} 
+.line_inf2{
+	border:solid 1px #fff;
+	width:15%;
+	border-radius: 3px;
+}
+.card_text2{
+	font-size: .7em!important;
+	color:#c29b6c;
+}
+.card_title2{
+	margin-top: 10%;
+	font-size: 2em!important;
+	color: white!important;
+}
+.fa-users,.fa-mug-hot,.fa-comment-alt,.fa-heart,.fa-rocket{
+	font-size: 2em!important;
+	color:#c29b6c;
+}
+ul{
+	list-style: none;
+	line-height: 2;
+	display: flex;
+	flex-direction: column;
+}
+li{
+	align-self: flex-start;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	font-size: .9em;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.lim{
+	align-self: center;
+	height: 20px;
+	width: 20px;
+}
+
+@media(orientation:portrait) and (max-width:900vh){
+	.part1{
+		flex-direction: column;
+		height: 80%;
+		justify-content: center;
+	}
+	.part2{
+		height: 50%;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.txt_mobile{
+		font-size:.8em;
+		margin-top: 2%;
+		align-self: center;
+	}
+	ul{
+		list-style-image: none;
+		line-height: 2;
+	}
+	.text-mobile-section{
+		height:70%;
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	#i{
+		align-self: center;
+	}
+	.list_mobile{
+		align-self: center;
+	}
+	.head_mobile{
+		font-size: 1em;
+		align-self: center;
+	}
+	.text_mobile{
+		align-self: center;
+	}
+	.cards2{
+		width: 50%;
+		height: 10%;
+		margin-bottom: 4%;
+	}
+	.card_title2{
+		font-size: 1em!important;
+	}
+	.card_text2{
+		font-size: .7em!important;
+	}
+	.line_inf2{
+		display: none;
+	}
+}

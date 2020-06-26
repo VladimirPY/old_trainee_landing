@@ -1,0 +1,47 @@
+.purchase{
+ 	height:100%;
+ 	width:100%;
+ 	align-self: center;
+ 	font-size:12px;
+ 	color:white;
+ 	background-color: #8e6343;
+ 	border-bottom: solid 2px #b58e70!important;
+ 	border:none;
+ 	transition: .5s;
+ }
+ .purchase:hover{
+ 	background-color:#b58e70;
+ }
+ .buy_container_text{
+ 	align-self: center;
+ }
+ #a{
+ 	color:#d2b69c;
+ }
+ .text_buy{
+ 	color:white;
+ }
+ .text2_buy{
+ 	color:#957937;
+ }
+ .abutton{
+ 	height:40%;
+ 	width:10%;
+ 	align-self: center;
+ 	margin-right: 20%;
+ }
+ @media(orientation:portrait) and (max-width:900vh){
+	.purchase{
+ 		height:50%;
+ 		font-size:1em;
+ 	}
+ 	.text_buy{
+ 		font-size:1em;
+ 	}
+ 	.text2_buy{
+ 		font-size:.8em;
+ 	}
+ 	.abutton{
+ 		width: 50%;
+ 	}
+}

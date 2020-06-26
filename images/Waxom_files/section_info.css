@@ -1,0 +1,41 @@
+.cards{
+	height:90%;
+	width:17%;
+	align-self: center;
+	margin-right: 5px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	color:#4f4f4f!important;
+	text-align: center;
+} 
+.ac{
+	color: #4f4f4f;
+}
+.line_inf{
+	border:solid 2px #4f4f4f;
+	width:30%;
+	opacity:0.5;
+}
+.card_text{
+	font-size: .7em!important;
+}
+.card_title{
+	font-size: 1em!important;
+	transition: .5s
+}
+hr{
+	transition: .5s;
+}
+.fa-folder-open,.fa-cog,.fa-layer-group,.fa-pencil-alt{
+	font-size: 2em!important;
+}
+
+.cards:hover #cards_hover1{
+	border-color: #b58e70;
+	cursor: pointer;
+}
+.cards:hover #cards_hover{
+	color:#b58e70;
+	cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.content2{
+	height:50%;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.content_card2{
+	height:100%;
+	width:20%;
+	align-self: center;
+	cursor: pointer;
+}
+.img_content2{
+	height:60%;
+	width:90%;
+}
+.content_text2{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	width:90%;
+	height: 40%;
+	background-color: beige;
+	opacity: .6;
+	transition: .5s;
+}
+#s{
+	color:gray;
+	font-size: .7em;
+	margin-left: 3%;
+}
+#f{
+	color:#a88061;
+	margin-left: 3%;
+} 
+#t{
+	color:#d1b36f;
+	margin-left: 3%;
+	font-size: .7em;
+} 
+.text-post{
+	text-align: center;
+	color:gray;
+}
+.switchers{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-size:15px;
+	height: 10%;
+}
+.fa-chevron-circle-left,.fa-chevron-circle-right{
+	color:#602707;
+	align-self: flex-end;
+	opacity: .6;
+	transition: .5s;
+	margin-left: 3px;
+}
+.fa-chevron-circle-left:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+.fa-chevron-circle-right:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+.content_card2:hover #ct2{
+	background-color: #300f00;
+	cursor: pointer;
+	opacity: 1;
+}
+.content_card2:hover #f{
+	color:#d1b36f;
+}
+.content_card2:hover #s{
+	color:#fff;
+}

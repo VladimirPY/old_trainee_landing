@@ -1,0 +1,137 @@
+.menu_box{
+	display:flex;
+	justify-content: space-around;
+	width:60%;
+	align-self: center;
+}
+.logo_box{
+	width:20%;
+	height:50%;
+	align-self: center;
+	justify-content: space-around;
+	display: flex;
+}
+.head_section1{
+	display: flex;
+	justify-content: space-around;
+	width:100%;
+	height:15%;
+}
+.link{
+	text-decoration: none;
+	color:white;
+	font-size:15px;
+	transition:.5s;
+}
+.tools{
+	display:flex;
+	width: 8%;
+	justify-content: space-around;
+}
+div.tools{
+	color:#fff5d9;
+	cursor:pointer;
+}
+.fas{
+	transition:.5s;
+}
+.link:hover{
+	color:#b58e70;
+	text-decoration: none;
+}
+.fas.fa-search:hover{
+	color:#b58e70;
+}
+.fas.fa-shopping-bag:hover{
+	color:#b58e70;
+}
+img.logo{
+	height:100%;
+	width:50%;
+}
+.body_section1{
+	height:85%;
+	width:100%;
+	display: flex;
+	flex-direction: row;
+}
+.arrow{
+	height:100%;
+	width:5%;
+	display: flex;
+	background-color: transparent;
+	border-style: none;
+}
+.info_card{
+	height:100%;
+	width:90%;
+}
+.img_ar{
+	width: 100%;
+	height:15%;
+	align-self: center;
+}
+.text_s1{
+	color:white;
+	vertical-align: middle;
+	align-self: center;
+}
+#section1_h1{
+	font-size:40px;
+}
+#section1_h3{
+	margin-top: 10%;
+	font-size:20px;
+}
+#section1_h5{
+	margin-bottom: 1%;
+	font-size:15px;
+}
+.started{
+	
+	height:100%;
+	width:100%;
+	display: inline-block;
+	background-color: #8e6343;;
+	border-radius: 5%;
+	align-self: center;
+	color: white;
+	border-bottom: solid 2px #b58e70 !important;
+	border: none;
+	transition: .5s;
+}
+.started:hover{
+	background-color: #b58e70;
+}
+.carousel-item{
+	display: flex!important;
+	flex-direction: column!important;
+	justify-content: center!important;
+}
+.fa-chevron-left,.fa-chevron-right{
+	font-size: 40px;
+	color:#ffdd9b!important;
+}
+.fa-chevron-left:hover{
+	color:#b58e70!important;
+}
+.fa-chevron-right:hover{
+	color:#b58e70!important;
+}
+.slide_round{
+	height:10px!important;
+	width:10px!important;
+	border-radius: 50%!important;
+}
+li.active{
+	border-radius: 50%!important;
+	height:10px!important;
+	width:10px!important;
+
+}
+.abutton-start{
+	height:50px;
+	width:10%;
+	align-self: center;
+	margin-bottom: 10%;
+}

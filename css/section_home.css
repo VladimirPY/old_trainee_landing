@@ -1,0 +1,152 @@
+.menu_box{
+	display:flex;
+	justify-content: space-around;
+	width:60%;
+	align-self: center;
+}
+.logo_box{
+	width:15%;
+	height:50%;
+	align-self: center;
+	justify-content: space-around;
+	display: flex;
+}
+.head_section1{
+	display: flex;
+	justify-content: space-around;
+	width:100%;
+	height:15%;
+}
+.link{
+	text-decoration: none;
+	color:white;
+	font-size:15px;
+	transition:.5s;
+}
+.tools{
+	display:flex;
+	width: 8%;
+	justify-content: space-around;
+}
+div.tools{
+	color:#fff5d9;
+	cursor:pointer;
+}
+.fas{
+	transition:.5s;
+}
+.link:hover{
+	color:#b58e70;
+	text-decoration: none;
+}
+.fas.fa-search:hover{
+	color:#b58e70;
+}
+.fas.fa-shopping-bag:hover{
+	color:#b58e70;
+}
+img.logo{
+	height:100%;
+	width:100%;
+}
+.body_section1{
+	height:85%;
+	width:100%;
+	display: flex;
+	flex-direction: row;
+}
+.arrow{
+	height:100%;
+	width:5%;
+	display: flex;
+	background-color: transparent;
+	border-style: none;
+}
+.info_card{
+	height:100%;
+	width:90%;
+}
+.img_ar{
+	width: 100%;
+	height:15%;
+	align-self: center;
+}
+.text_s1{
+	color:white;
+	vertical-align: middle;
+	align-self: center;
+}
+#section1_h1{
+	font-size:40px!important;
+}
+#section1_h3{
+	top: 100px!important;
+	font-size:28px;
+}
+#section1_h5{
+	margin-bottom: 1%;
+	font-size:15px;
+}
+.started{
+	margin-top: 30px;
+	height:40px;
+	width:100px;
+	background-color: #8e6343;
+	border-radius: 5px;
+	color: white;
+	border-bottom: solid 2px #b58e70 !important;
+	border: none;
+	font-size:.8em;
+	transition: .5s;
+}
+.started:hover{
+	background-color: #b58e70;
+}
+
+.fa-chevron-left,.fa-chevron-right{
+	font-size: 40px;
+	color:#ffdd9b!important;
+}
+.fa-chevron-left:hover{
+	color:#b58e70!important;
+}
+.fa-chevron-right:hover{
+	color:#b58e70!important;
+}
+
+
+#carouselExampleIndicators{
+	height:80%;
+	width: 100%;
+	color: white;
+}
+
+
+.carousel-item{
+	top:100px!important;
+	height: 100%;
+	text-align: center;
+}
+.abutton-start{
+	height:100%;
+	width:10%;
+	align-self: center;
+	margin-top: 20px;
+	margin-bottom: 10%;
+}
+@media(orientation:portrait) and (max-width:900vh){
+	.link,.tools,.menu_box,.fa-search.inv,.fa-shopping-bag{
+		display:none;
+	}
+	.logo_box{
+		width:40%;
+	}
+	.head_section1{
+		flex-direction: column;
+	}
+	.abutton-start{
+		height:50px!important;
+		width:20%!important;
+		margin-bottom: 30%!important;
+	}
+}

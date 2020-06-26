@@ -1,0 +1,78 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin:0;
+    font-family: Roboto;
+
+} 
+a {
+  text-decoration: none!important;
+}
+
+.section_home{
+	height:100%;
+    width:100%;
+    background-image: url("../images/back_first.jpg");
+    background-size: 100% 100%;
+}
+.section_info{
+	height:40%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.section_buy{
+	height:15%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	background: linear-gradient(to right, #000,  #6a3112);
+}
+.section_projects{
+	height:100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.frame{
+ 	position: relative;
+ 	height:80%;
+ 	width: 100%;
+ 	background-image: url("../images/frame.jpg");
+ 	background-size: 100% 130%;
+ }
+ iframe:hover{
+ 	opacity: 1;
+ }
+ iframe{
+ 	transition: .5s;
+ 	opacity: 0;
+ }
+.section_mobile{
+	height:110%;
+	width: 100%;
+}
+.section_post{
+	height: 70%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.section_contacts{
+	height:60%;
+    width:100%;
+    background-image: url("../images/back_last.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+@media(max-width:900px) and (orientation:portrait){
+	#section{
+		overflow: hidden;
+	}
+}

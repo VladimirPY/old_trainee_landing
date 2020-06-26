@@ -1,0 +1,37 @@
+.add{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	width: 100%;
+	height: 80%;
+	align-self: center;
+} 
+#end{
+	height:70%;
+	align-self: center;
+	margin-right: 2em;
+}
+.contacts{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	height:20%;
+	width: 100%;
+	background-color: #150700;
+	color:#463f3c;
+}
+
+#c1,#c2{
+	align-self: center;
+	font-size:1em;
+}
+#colorc{
+	color:white!important;
+	margin-left: 1em;
+}
+#cont{
+	color:#463f3c;
+}
+#cont:hover{
+	color:beige;
+}
